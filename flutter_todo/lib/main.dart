@@ -1,7 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
+import 'package:flutter_todo/services/address_services.dart';
+import 'package:flutter_todo/services/product_services.dart';
+import 'package:flutter_todo/services/shape_services.dart';
+import 'package:flutter_todo/services/student_services.dart';
 
-void main() => runApp(new TodoApp());
+void main() {
+  runApp(new TodoApp());
+  loadStudent();
+  loadAddress();
+  loadShape();
+  loadProduct();
+} 
+
 
 class TodoApp extends StatelessWidget{ //Stateless cannot be change dynamically
   @override
