@@ -44,6 +44,7 @@ flutter:
     - assets/address.json
     - assets/shape.json
     - assets/product.json
+    - assets/photo.json
 
   # To add assets to your application, add an assets section, like this:
   # assets:
